@@ -4,26 +4,46 @@
   <meta charset="UTF-8">
 	<title>Your Website</title>
   <link rel="stylesheet" href="style.css" type="text/css"/>
-  <meta name="viewport" content="width=device-width"> <!--rozciągnięcie strony na 100% na ekranu urządzenia-->
+  <meta name="viewport" content="width=device-width"> <!--Page extension on 100% mobile device-->
 </head>
 <body>
 
-	<header>
-    <h1 class="page-title">Tymoteusz Sala</h1>
+	<header class="page-header">
+    <div class="page-logo">
+      <a href="#" title="Go back to homepage">
+        <img src="img/logo.png" alt="logo">
+      </a>
+    </div>
+    <nav class="page-nav">
+      <ul class="navigation-menu">
+        <li><a href="#" title="Some information about me">O mnie</a></li>
+        <li><a href="#" title="Where can you find me">Kontakt</a></li>
+        <li><a href="#" title="Portfolio">Portfolio</a></li>
+        <li><a href="#" title="Send me a message">Message</a></li>
+      </ul>
+      <button type="button" title="Open menu">hamburger</button>
+    </nav>
 	</header>
-
-	<section>
-
-
-
-	<aside>
-		<h2>About section</h2>
-	</aside>
-
-	<footer>
-		<p>Copyright 2018 Tymoteusz Sala</p>
-	</footer>
-
+<main>
+  <section class="homepage">
+      <header class="homepage-header">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <div><img src="img/me.jpg" alt="my photo">
+            <p>Tymoteusz Sala</p>
+          </div>
+      </header>
+  </section>
+</main>
+<footer>
+  <ul>
+    <li><a href="#" title="Some information about me">O mnie</a></li>
+    <li><a href="#" title="Where can you find me">Kontakt</a></li>
+    <li><a href="#" title="Portfolio">Portfolio</a></li>
+    <li><a href="#" title="Send me a message">Message</a></li>
+  </ul>
+  <img src="" alt="">
+  <p>Copyright 2018 Tymoteusz Sala</p>
+</footer>
 </body>
-
 </html>
