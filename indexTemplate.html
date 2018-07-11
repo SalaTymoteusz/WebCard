@@ -21,17 +21,21 @@
         <li><a href="#" title="Portfolio">Portfolio</a></li>
         <li><a href="#" title="Send me a message">Message</a></li>
       </ul>
-      <button type="button" title="Open menu">hamburger</button>
     </nav>
+      <!--This is hamhurger  -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
 	</header>
 <main>
   <section class="homepage">
       <header class="homepage-header">
         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-          <div><img src="img/me.jpg" alt="my photo">
-            <p>Tymoteusz Sala</p>
-          </div>
+        <p>Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula diam efficitur odio gravida, vel placerat nibh faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc turpis lorem, interdum non arcu quis, iaculis bibendum quam. Donec aliquet accumsan interdum. In facilisis, eros nec tincidunt euismod, justo ante tincidunt nulla, vel vehicula urna nulla tincidunt eros. Vivamus augue est, fringilla ut est quis, luctus cursus lectus. Morbi feugiat urna ut metus tempor, at imperdiet nunc convallis. Nulla non urna volutpat, ullamcorper nisi non, laoreet mi. Phasellus rhoncus vehicula augue nec fringilla. Nullam ultricies pulvinar nibh, at dapibus odio malesuada nec. Cras ac mauris risus. Nam facilisis lectus nec blandit porta. Proin sit amet aliquam ligula, ut cursus turpis. Phasellus volutpat diam vitae fringilla fermentum. Phasellus euismod justo nulla, vel aliquam turpis interdum eget.
+
+Vestibulum nec egestas ipsum. Praesent sodales ac metus a pulvinar. Vivamus sed eros ultricies, finibus felis fringilla, fermentum lorem. Donec aliquet nibh et orci tincidunt, at efficitur velit rhoncus. Suspendisse in interdum nunc. Sed at consequat sem. Nunc commodo mi sit amet convallis interdum. Aliquam erat volutpat. Ut lobortis ornare metus, ultricies ultrices quam blandit in.</p>
       </header>
   </section>
 </main>
@@ -45,5 +49,11 @@
   <img src="" alt="">
   <p>Copyright 2018 Tymoteusz Sala</p>
 </footer>
+<!-- This function change hamburger to X -->
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
 </body>
 </html>

@@ -7,14 +7,59 @@ body{
   list-style: none;
   margin: 0;
   padding: 0;
+  display: none;
 }
 
 .homepage .homepage-header{
   background-image: url("img/bcg.png");
   background-size: cover;
   background-position: 50%;
+  padding-top: 100px;
 }
 
 .page-header{
   position: absolute;
+  width: 100%
+
+
+}
+
+.page-logo{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  width: 100%;
+}
+
+
+/*here is start of hamburger and X button*/
+
+.container {
+  position: absolute;
+    top: 15px;
+    right: 20px;
+  width: 35px;
+  height: 4px;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #362B39;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-7px, -6px);
+    transform: rotate(45deg) translate(-7px, -6px);
 }
