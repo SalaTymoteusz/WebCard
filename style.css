@@ -7,7 +7,11 @@ body{
   list-style: none;
   margin: 0;
   padding: 0;
-  display: none;
+  /*display: none;*/
+  text-align: center;
+  width: 100%;
+  background-color: #FFFFFF
+
 }
 
 .homepage .homepage-header{
@@ -37,8 +41,8 @@ body{
 
 .container {
   position: absolute;
-    top: 15px;
-    right: 20px;
+  top: 15px;
+  right: 20px;
   width: 35px;
   height: 4px;
 
