@@ -3,17 +3,94 @@ body{
   padding: 0;
 }
 
+.page-nav .hamburger {
+  border: 0;
+  background: 0;
+
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  width: 30px;
+  height: 30px;
+
+  fill: brown;
+}
+
+.page-nav .hamburger .hamburger-icon {
+  width: 18px;
+  height: 6px;
+}
+
+.page-nav .hamburger .close-icon {
+  display: none;
+  width: 14px;
+}
+
+.page-header.nav-opened {
+  background: #FFFFFF;
+  box-shadow: -1px 9px 19px -8px rgba(0, 0, 0, 0.5);
+}
+
+.page-header.nav-opened .page-logo {
+  fill: #000000;
+}
+
+.page-header.nav-opened .page-nav .hamburger {
+  fill: #000000;
+}
+
+.page-header.nav-opened .page-nav .hamburger .hamburger-icon {
+  display: none;
+}
+
+.page-header.nav-opened .page-nav .hamburger .close-icon {
+  display: inline-block;
+}
+
+.page-header.nav-opened .navigation-menu {
+  display: block;
+}
+
 .page-nav .navigation-menu{
   list-style: none;
   margin: 0;
   padding: 0;
   /*display: none;*/
   text-align: center;
+  padding-top: 70px;
   width: 100%;
-  background-color: #FFFFFF
-
 }
 
+.page-nav .navigation-menu li.send_message{
+  border: 0px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.page-nav .navigation-menu li.send_message a{
+  border: 2px solid #00BAA5;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-nav .navigation-menu li{
+  border-bottom: 1px solid #f5f7f8;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.page-nav .navigation-menu li a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.page-header.nav-opened{
+  background-color: #FFFFFF;
+  box-shadow: -1px 9px 19px -8px rgba(0, 0, 0, 0.5);
+}
 .homepage .homepage-header{
   background-image: url("img/bcg.png");
   background-size: cover;
@@ -24,8 +101,6 @@ body{
 .page-header{
   position: absolute;
   width: 100%
-
-
 }
 
 .page-logo{
@@ -36,34 +111,24 @@ body{
   width: 100%;
 }
 
-
-/*here is start of hamburger and X button*/
-
-.container {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  width: 35px;
-  height: 4px;
-
+.page-footer{
+  text-align: center;
+  background-color: #F5F7F8;
+  padding-top: 74px;
+  padding-bottom: 48px;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 4px;
-    background-color: #362B39;
-    margin: 5px 0;
-    transition: 0.4s;
+.page-footer .navigation-menu li{
+  margin-bottom: 35px;
+  list-style: none;
 }
 
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
-    transform: rotate(-45deg) translate(-8px, 6px);
-}
+.page-footer .navigation-menu li a{
+  text-decoration: none;
+  color: #00BF5A;
 
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-7px, -6px);
-    transform: rotate(45deg) translate(-7px, -6px);
+.page-footer .navigation-menu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
