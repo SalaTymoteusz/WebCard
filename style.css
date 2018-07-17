@@ -60,6 +60,7 @@ body{
   text-align: center;
   padding-top: 70px;
   width: 100%;
+  display: none;
 }
 
 .page-nav .navigation-menu li.send_message{
@@ -96,6 +97,18 @@ body{
   background-size: cover;
   background-position: 50%;
   padding-top: 100px;
+}
+
+.secound-page{
+  background-image: url("img/darkbulb.jpeg");
+  background-size: cover;
+  height: 500px;
+}
+
+.third-page{
+  background-image: url("img/skybulb.jpeg");
+  background-size: cover;
+  height: 500px;
 }
 
 .page-header{
